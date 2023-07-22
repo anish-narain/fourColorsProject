@@ -4,7 +4,7 @@ This project was a prototype with the aims to automate the process of finding re
 
 Google’s Cloud Natural Language API was considered but the project was for technical documents which do not always follow the standard conventions of speaking language. Instead, a statistical, keyword extraction method was chosen called YAKE (Yet Another Keyword Extractor).
 
-<img width="200" alt="image" src="https://github.com/anish-narain/fourColorsProject/assets/69715492/e61e4863-6e35-463e-8015-185ff09f9365">
+<img width="300" alt="image" src="https://github.com/anish-narain/fourColorsProject/assets/69715492/e61e4863-6e35-463e-8015-185ff09f9365">
 
 The provided Python code consists of four files that work together to scrape information from a website's FAQ page, extract keywords from the content, and then calculate the cosine similarity between user queries and the FAQ content using BERT embeddings. 
 
