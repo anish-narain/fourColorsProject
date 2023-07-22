@@ -1,0 +1,29 @@
+A Dassault Systèmes License Server (DSLS) tool is used to supply licences to Dassault Systèmes software, including CATIA, ENOVIA, DELMIA and SIMULIA. 
+
+
+Background
+The licence itself can be CONCURRENT (server based) or NODELOCKED (local machine based). The licence file is generated using a unique key called the PC-ID, which is derived from the MAC address of the physical network adapter. In order to obtain the PC-ID, a utility can be run. The PC-ID must be provided when applying for a new licence and must be of the machine that the licence will be issued for.
+How to obtain your PC-ID
+1. Download the DSLS PC-ID extraction tool
+2. Browse to the directory where the extraction tool has been downloaded.
+3. Right click on the .zip file and select Extract All…
+
+4. Place the files on the user’s desktop and select Show extracted files when complete before selecting Extract.
+
+5. The extracted folder will contain two files. Please open DSLS-PCID.cmd
+
+6. This will have generated a Text file called DSLS-PCID.txt on the local desktop. Please send this file to the requester.
+
+
+
+
+
+
+
+
+
+
+
+
+
+If you have checked these items and are still experiencing issues, please contact support.

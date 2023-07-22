@@ -1,0 +1,19 @@
+What is software licensing?
+A software licence is a legal entity which gives the user the ability to either use and/or redistribute particular software. The majority of software licenses come in the form of a string of either letters, numbers or both, typically unique for a particular user or group of users. Some software can also be licensed using a licence file for particular operating systems.
+What does a software license mean to me?
+Dassault Systèmes’ software is licensed using a license file. The file itself governs how many users are allowed to use the software and/or what features of the software are available. At TECHNIA, the majority of our customers will either be supplied a licence for IBM Licence User Management (LUM) console, Dassault Systèmes Licence Server (DSLS) console and or Flex Licence Management console.
+What else do I need to know?
+In order to simplify the licensing process for our customers, the series of links below provide answers to our most frequently asked licensing questions; including how to get the appropriate information to us in order for us to proceed with your licence order, how to install any licensing software and and/or implement your license, and how to get up and running with your chosen software.
+
+
+
+
+
+
+
+
+
+
+
+
+For further information or support, please contact [email protected] or submit a support ticket.

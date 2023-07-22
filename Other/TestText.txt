@@ -1,0 +1,731 @@
+
+
+
+
+
+        LUM Installation & Client/Server Configuration | TECHNIA (UK)    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Contact us        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training & Education
+News
+Blog
+Contact
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Services
+
+
+
+
+
+Training & Education
+
+3DEXPERIENCECATIA V5ENOVIADELMIASIMULIAGD&TSOLIDWORKSVirtual TrainingAbaqus Continual Learning Program 
+ 
+
+
+PLM Consultancy
+
+PLM Project ManagementPLM DeploymentPLM Helpdesk & SupportOEM Environments for myPLMSoftware CustomisationJaguar Land Rover Engineering ToolsetAirbus Supplier ProgramINFUSEIT Consultancy 
+ 
+
+
+Engineering Consultancy
+
+Engineering Centre of ExcellenceSimulation Centre of ExcellenceManufacturing Centre of Excellence 
+ 
+
+
+TECHNIA.Cloud 
+
+TECHNIA.Cloud SolutionsWebinar on Demand 
+ 
+ 
+
+Solutions
+
+Modeling and SimulationLicense to CureEngineered to cureProduct Lifecycle Management (PLM)3D Design Modelling3D Product DocumentationAdditive ManufacturingCATIA V5 PLM LaunchpadAnalysis & SimulationDigital Manufacturing SimulationIndustrial IoTProduct Data Management (PDM)Rapid Part Search
+Software
+
+
+
+
+
+Dassault Systèmes Solutions
+
+3DEXPERIENCECATIAENOVIADELMIADELMIAWORKSSIMULIAEXALEADCSTBIOVIADraftSightSOLIDWORKS 
+ 
+
+
+TECHNIA Software
+
+Value Components (TVC)Integration Framework (TIF)Value ToolsLight My WaymyPLMQ-CheckerCAVAxCompareLite3DExchange HubPartners 
+ 
+
+
+Engineering Solutions
+
+eDrawingsGeomCaliperIMS SoftwarePublish 3DTetra4DTrue-LoadTruLASER ViewType3 Artistic CAD/CAM Software 
+ 
+ 
+
+Industries
+
+AcademiaAerospace & DefenceArchitecture, Engineering & ConstructionConsumer Packaged GoodsEnergy, Process & UtilityHigh TechIndustrial EquipmentLife SciencesMarine & OffshoreTransportation & Mobility
+Knowledge Hub
+
+TutorialsBlogCase StudiesEvents & ExhibitionsWebinars
+About Us
+
+CareersCode of PLM OpennessOur HeritageQuality & EnvironmentPartnersCompany Portfolio
+Support
+
+Sustainable Remote ServicesRemote supportHelpdeskSoftware DownloadsLicense RequestFAQs
+NewsBlogContact 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+                                                                                LUM Installation & Client/Server Configuration                                        
+
+
+
+Frequently Asked Questions (FAQ)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home>Support>FAQs>LUM Installation & Client/Server Configuration 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Download Files:
+Download link: 
+
+LUM 4.6.8.15 (64bit)
+LUM 4.6.8.15 (32bit)
+LUM 4.6.8
+
+Installation
+Please install the IBM LUM application on the server intended to host the licenses AND the client(s) intended to use the license(s).
+Please ensure the user is either the Administrator or has Administrator rights. In addition User Account Control (UAC) should be switched off.
+NOTE: If you have downloaded LUM 4.6.8.15 and the execution of the setup.exe file fails, install LUM 4.6.8 as a pre-requisite. 
+1. Run Setup.exe – Click Next
+
+2. Accept the licensing agreement and then Click Next
+
+3. Click Next
+
+4. Click Next
+
+5. Click Next
+
+6. Click Install
+
+7. Click Finish
+
+ 
+Configuration
+1. Go to Start > All Programs > License Use Runtime and launch Configuration Tool
+
+2. Under the Configure As tab, select the following:
+a. CLIENT ONLY – Select “Network License Client”
+
+b. SERVER ONLY – Select “Network License Server”
+
+3. Go to the Direct Binding tab and enter the name of the license server(s) and select Add.
+
+NOTE: Unless there is a port conflict, please leave all other details as default.
+4. FOR SERVER ONLY!!! GO TO STEP 5 TO CONTINUE CLIENT CONFIGURATION!
+Go to the Start Up Tab and select Start Services At System Start Up
+
+5. Press the  to close the window. When prompted, select YES to saving configuration
+
+6. FOR SERVER ONLY!!! GO TO STEP 8 TO CONTINUE CLIENT CONFIGURATION!
+Go to Start > All Programs > License Use Runtime and open Service Manager Tool
+
+7. In the Service Manager Tool Select Service and then Start
+
+8. Go to Start > All Programs > License Use Runtime  and open Basic License Tool
+
+9. Licenses should now be visible. If licenses need to be enrolled, please refer to the enrolling concurrent license guide.
+
+ 
+Troubleshooting
+
+Unable to open Configuration Tool?
+
+Ensure EVERYBODY has full read/write access to the following directory: C:IFOR
+
+
+
+
+Unable to see the server?
+
+Ensure Windows Firewalls are off on both the server and client
+Ensure you can ping the server from the client and vice versa
+
+
+
+
+Basic License Tool appears to be loading or hung on the server/client?
+
+Ensure the service is turned on on the server using Service Manager Tool
+Ensure the name of the server is correct in the Configuration Tool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For further information or support, please contact [email protected] or submit a support ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Related Content
+
+
+
+
+
+
+
+
+
+
+
+
+
+													Blog												
+												Comparing Model Changes and Validating Change Requests on CATIA V5 Models											
+
+
+
+
+
+
+
+
+
+
+
+
+
+													Blog												
+												Apache Log4j Security Exposure											
+
+
+
+
+
+
+
+
+
+
+
+
+
+													Webinars												
+												MODSIM Episode Six: Simulating Assemblies											
+
+
+
+
+
+
+
+
+
+
+
+
+
+													Promo Slides												
+												Discuss your project with a PLM expert											
+
+
+
+
+
+
+
+
+
+
+
+
+
+													Testimonials												
+												Autoliv											
+
+
+
+
+
+
+
+
+
+
+
+
+
+													Testimonials												
+												Kongsberg Defence and Aerospace (KDA)											
+
+
+
+
+
+
+
+
+
+See all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About Us
+
+News
+Career
+Our Heritage
+Partners
+Quality & Environment
+Privacy Policy
+
+
+
+Support
+
+Remote Support 
+Helpdesk
+Software Downloads
+License Request
+FAQS
+
+
+
+
+Contact Us
+
+
+ +44 (0)1908 776776
+
+
+ [email protected]
+
+
+More Contact Info
+
+
+
+
+
+
+
+
+
+
+
+
+© TECHNIA 2019 (Part of the Addnode Group) TECHNIA is certified according to ISO standards 9001:2015 and 14001:2015 – Quality & Environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Services
+
+Training & Education
+
+3DEXPERIENCE
+CATIA V5
+ENOVIA
+DELMIA
+SIMULIA
+GD&T
+SOLIDWORKS
+Virtual Training
+Abaqus Continual Learning Program
+
+
+PLM Consultancy
+
+PLM Project Management
+PLM Deployment
+PLM Helpdesk & Support
+OEM Environments for myPLM
+Software Customisation
+Jaguar Land Rover Engineering Toolset
+Airbus Supplier Program
+INFUSEIT Consultancy
+
+
+Engineering Consultancy
+
+Engineering Centre of Excellence
+Simulation Centre of Excellence
+Manufacturing Centre of Excellence
+
+
+TECHNIA.Cloud 
+
+TECHNIA.Cloud Solutions
+Webinar on Demand
+
+
+
+
+Solutions
+
+Modeling and Simulation
+License to Cure
+Engineered to cure
+Product Lifecycle Management (PLM)
+3D Design Modelling
+3D Product Documentation
+Additive Manufacturing
+CATIA V5 PLM Launchpad
+Analysis & Simulation
+Digital Manufacturing Simulation
+Industrial IoT
+Product Data Management (PDM)
+Rapid Part Search
+
+
+Software
+
+Dassault Systèmes Solutions
+
+3DEXPERIENCE
+CATIA
+ENOVIA
+DELMIA
+DELMIAWORKS
+SIMULIA
+EXALEAD
+CST
+BIOVIA
+DraftSight
+SOLIDWORKS
+
+
+TECHNIA Software
+
+Value Components (TVC)
+Integration Framework (TIF)
+Value Tools
+Light My Way
+myPLM
+Q-Checker
+CAVA
+xCompare
+Lite3D
+Exchange Hub
+Partners
+
+
+Engineering Solutions
+
+eDrawings
+GeomCaliper
+IMS Software
+Publish 3D
+Tetra4D
+True-Load
+TruLASER View
+Type3 Artistic CAD/CAM Software
+
+
+
+
+Industries
+
+Academia
+Aerospace & Defence
+Architecture, Engineering & Construction
+Consumer Packaged Goods
+Energy, Process & Utility
+High Tech
+Industrial Equipment
+Life Sciences
+Marine & Offshore
+Transportation & Mobility
+
+
+Knowledge Hub
+
+Tutorials
+Blog
+Case Studies
+Events & Exhibitions
+Webinars
+
+
+About Us
+
+Careers
+Code of PLM Openness
+Our Heritage
+Quality & Environment
+Partners
+Company Portfolio
+
+
+Support
+
+Sustainable Remote Services
+Remote support
+Helpdesk
+Software Downloads
+License Request
+FAQs
+
+
+News
+Blog
+Contact
+
+
+
+
+

@@ -1,0 +1,52 @@
+This guide will explain how to enrol DSLS licenses using the License Administration Tool provided by Dassault Systèmes.
+
+
+
+
+If you haven’t already, install and configure the DS License Server Tool.
+
+Also, save the .LICZ attachment from the licensing e-mail (From TECHNIA Licensing, [email protected]) you received, into an easy to find folder on the license server.
+
+Once the DSLS licensing app is installed and configured on the server, go to ‘Start > Programs > DS License Server > License Administration Tool’ to run the admin tool on the server.
+
+
+
+Select your server from the list and click the Connect function from the ‘Servers’ menu at the top OR ‘Right mouse button’ on the server in the list and select ‘Connect’.
+
+Note: The server will become bold when connected as shown below on the left:
+Note: However, if no licenses have been installed yet (and the server is not activated), there will be a red cross on the ‘Server status’ icon as shown on the right below:
+
+ 
+4. Click on ‘License > Enrol’ from the drop-down menu at the top:
+ 
+
+5. Select the License file in the file browser window that appears and click ‘Open’:
+ 
+
+6. The license(s) contained in the licence file will be enrolled and a message like the one below will appear. Click ‘OK’:
+ 
+
+ 
+
+The above indicates successful license enrolment, and the system is ready to use. You may now close the License Administration Tool. The license file you have (xxxxx.LICZ) may be discarded.
+
+Note: If you get an error message, the primary reason is probably that you are trying to enrol the license(s) on a server where the DSLS Target ID does NOT match the target ID that the license file was created for.
+For any further assistance, please submit a support ticket by:
+Email: [email protected]
+Portal: https://www.technia.co.uk/support/helpdesk/
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+For further information or support, please contact [email protected] or submit a support ticket.

@@ -1,0 +1,22 @@
+In order to uninstall the DS License server please follow the instructions below: 
+
+
+1. Go to Control Panel > Uninstall a program
+
+2. Select DS License Server > Uninstall
+
+3. Click Yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+For further information or support, please contact [email protected] or submit a support ticket.

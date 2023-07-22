@@ -1,0 +1,30 @@
+CATIA V5R21 and upwards by default looks for a DSLS type of license.
+
+
+In order to use DSLS type of license with CATIA R19 & R20 (R18 and below are not supported) you must have the following installed as a prerequisite:
+
+CATIA V5R19; Service Pack 9; Hot Fix 96
+CATIA V5R20; Service Pack 7; Hot Fix 26
+
+1. Go to Start > Right Click on Computer > Select Properties
+
+2. On the right of Computer Properties Dialog box, select Advanced System Settings
+
+3. Select Environment Variables… in the dialog box
+
+4. In the Environment Variables dialog box, select New and enter the Variable Name DSLICENSING and in the Variable Value enter DSLS
+
+5. Click OK to all boxes and proceed to open the application.
+
+
+
+
+
+
+
+
+
+
+
+
+For further information or support, please contact [email protected] or submit a support ticket.

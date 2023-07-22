@@ -1,0 +1,5 @@
+enables additional insight,0.011498193903553049
+support queries faster,0.02835592509572755
+resolve support queries,0.031858633985232185
+TECHNIA support team,0.05436293546760446
+TECHNIA,0.06778528721856968

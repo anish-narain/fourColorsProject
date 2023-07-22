@@ -1,0 +1,75 @@
+Download Files:
+Download link: LicenceLogCMD.zip
+Prerequisites
+Some settings will need to be changed so that All Events can be obtained.
+1. On the licence server hosting the LUM licences stop the licence service. Start > Type “services.msc” in the search box.
+
+Click services.msc when it shows up in the list
+
+2. Locate IBM Network Licence Server and click Stop
+
+3.
+Open up the following file:
+C:/ProgramData/IBM/LUM/I4LS.INI
+Make the following changes in the file:
+NumberOfLogFile=10
+MaxLogFileSize=10000
+(…)
+LogAllEvents=yes
+(…)
+LogCheckin=yes
+LogWait=yes
+LogVendor=yes
+LogProduct=yes
+LogTimeout=yes
+LogErrors=yes
+LogVendorMsg=yes
+
+
+File > Save
+
+4. Go to Start > All Programs > Licence Use Runtime > Configuration Tool
+
+Click on the Log tab and make sure all tick boxes are selected.
+
+Close the Configuration Tool
+5. Start the IBM Network License Server service up
+
+ 
+Instructions
+If you have separate servers then you will need to run DSLSLog.cmd and LUMLog.cmd separately on the correct servers.
+Copy the LicenceLogCMD.zip file onto the licence server(s) and unzip before running the command files.
+ 
+DSLS Licence Server
+1. Right-Click on DSLSLog.cmd > Open
+ 
+2. After running the command file DSLS.logz will be created on your desktop.
+
+
+LUM Licence Server
+1. Right-Click on LUMLog.cmd > Open
+
+2. Enter the date range which has been requested by Intrinsys and press Enter/Return
+
+3. After running the command file MyLogFileForDS.txt will be created on your desktop.
+
+ 
+Final Step
+Please send the following files to support by email:
+1. I4LS.ini – Located in C:ProgramDataIBMLUM
+2. DSLS.Logz – Located on your Desktop
+3. MyLogFileForDS.txt – Located on your Desktop
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+For further information or support, please contact [email protected]technia.com or submit a support ticket.
