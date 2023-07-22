@@ -1,0 +1,35 @@
+The aim is to be able to checkout and extract a license from the license server onto the client machine.
+
+
+Note: This is only for CATIA licenses
+Solution:
+1. Download i4-offline-mig-13.zip and zip it
+2. Stop license service (all users will lose licenses currently being used)
+
+ 
+ 
+3.  You need to run the i4_offline_mig.exe on the server:  C:IFORWINBINi4_offline_mig.exe (assume this is where it is installed to, verify on your machine too)
+
+4. Start licence server service back up
+
+ 
+ 
+5. On each of the CATIA licenses under “Concurrent” tab > RMB > Authorisations, you should be able to change the settings to All Concurrent Allowed.
+Notice the icon has changed… 
+
+
+6. In CATIA nodelock key management tool, extract the license
+
+
+
+
+
+
+
+
+
+
+
+
+
+For further information or support, please contact [email protected] or submit a support ticket.

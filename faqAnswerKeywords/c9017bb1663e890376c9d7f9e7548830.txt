@@ -1,0 +1,5 @@
+License Administration Tool,0.0040544146488810506
+Dassault Systèmes,0.004803996734626408
+Administration Tool provided,0.011166566272899494
+License,0.013705907754860455
+License Server,0.013915814687002294

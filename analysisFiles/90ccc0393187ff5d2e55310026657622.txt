@@ -1,5 +1,0 @@
-original installation launcher,0.012697637150268231
-application is launched,0.035476829230089824
-crashes out immediately,0.03956682299968635
-setup.exe file,0.049784291473987045
-installation media directory,0.05360873194628053

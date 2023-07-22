@@ -1,5 +1,0 @@
-Here you can find your EXALEAD Host ID.
-
-
-Please click on the following link to find your EXALEAD Host ID:
-http://ftp.transcat-plm.com/pub/tools/nghostid-5.1.10.26546-windows-x64.zip

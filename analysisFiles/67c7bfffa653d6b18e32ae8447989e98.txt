@@ -1,5 +1,0 @@
-software,0.04636331813732926
-licence,0.06078317289917069
-Systèmes Licence Server,0.11626114054315216
-Flex Licence Management,0.11675251858166946
-Dassault Systèmes Licence,0.1258453280435666

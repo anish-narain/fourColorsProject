@@ -1,0 +1,37 @@
+Identify the GenID and UUID of a virtual machine
+
+
+1. Copy these files to the virtual machine:
+
+lmutil.exe
+installanchorservice.exe
+FNP_Act_Installer.dll
+
+2. Open the command prompt (cmd.exe) and enter the command to install the license anchor service:
+installanchorservice.exe TechniaTranscat any
+The output looks something like this:
+Success code 2003: There was no service on the system so the new one was installed.
+or
+Success code 2001: The currently installed service is older than the new service so it has been upgraded.
+The installed service also appears as “FlexNet Licensing Service” in the list of local services on the computer.
+
+3. At the command prompt, enter the command to read out the Generation ID (GenID) of the virtual machine:
+lmutil.exe lmhostid -ptype VM -genid
+The output should look something like this:
+lmutil -Copyright (c) 1989-2017 Flexera Software LLC. All Rights Reserved. The FlexNet host ID of this machine is “VM_GENID=34d819f19cd864eb:552bb757c053b841”
+In the example, the GenID of the virtual machine is
+VM_GENID=34d819f19cd864eb:552bb757c053b841.
+4. Make a note of the GenID. You will need it to request the license file.
+TIP: To copy text from the command prompt, right-click the window and choose “Mark” from the context menu. Use the mouse to mark the required text, then press [ENTER] to copy the text to the clipboard.
+5. At the command prompt, enter the command to read out the UUID of the virtual machine:
+lmutil.exe lmhostid -ptype VM -uuid
+The output should look something like this:
+lmutil -Copyright (c) 1989-2017 Flexera Software LLC. All Rights Reserved.
+The FlexNet host ID of this machine is “VMW_UUID=ADCF4D56 -1847-DB87-379B-B5BF4D2C53FC”
+In the above example, the GenID of the virtual machine is
+VM_UUID=AF964D56-46E1-3D8C-EC52-DC1A9E6C4BA6.
+6. Copy the UUID and keep it until you have requested the license file.
+7. Go to the license request form
+If you request a license for VM for the first time, you need to fill out and submit the form twice. Once for the software product license with the UUID and a second one for the Generation ID license with the GenID. After that it is enough to only request the product license using the UUID.
+Fill in the details and submit your request. TECHNIA will send the license file to the given email address.
+Please note: When the virtual machine has been moved or cloned, only the GenID license needs to be updated to get the server running again. The UUID does not change in this case.

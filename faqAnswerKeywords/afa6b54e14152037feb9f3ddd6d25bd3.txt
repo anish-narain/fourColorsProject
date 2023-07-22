@@ -1,0 +1,5 @@
+Dassault Systèmes account,0.01391802975291526
+Systèmes Products,0.06608928912967535
+Hot Fix,0.08657768265194919
+Golden Level,0.08657768265194919
+Complete Install Folder,0.09509709486916244

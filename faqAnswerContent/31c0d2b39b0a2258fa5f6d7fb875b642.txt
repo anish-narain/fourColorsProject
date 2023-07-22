@@ -1,0 +1,5 @@
+Here you can find your FlexNet Host ID/MAC address.
+
+
+Please click on the following link to read your FlexNet Host ID/MAC address:
+https://ftp.transcat-plm.com/pub/tools/lmhostid.exe

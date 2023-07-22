@@ -1,0 +1,26 @@
+This short guide lists the steps to enrolling a DSLS nodelock license.
+
+
+Please copy the licences received onto the computer.
+Note: Do not place in C:\ProgramData\DassaultSystemes\License
+1. Create Licenses Folder in  C:\ProgramData\DassaultSystemes (if this doesn’t already exist).
+Note: If current licences already exists in the Licences folder, please delete these now.
+2. Start > Programs > CATIA > Tools > Nodelock Key management V5-6R20XX
+3. Click File > Import
+
+4. Select the license (placed on the desktop) then click Open
+
+The enrolled license will show up in the list after.
+
+
+
+
+
+
+
+
+
+
+
+
+For further information or support, please contact [email protected] or submit a support ticket.

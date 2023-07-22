@@ -1,0 +1,25 @@
+Head over to software.3ds.com and login to your Dassault Systèmes account using your credentials.
+
+Use the interactive banner to select which product/program you wish to install. Simply click on the desired product.
+Use the drop-down arrows to filter the Release, Level and any Hot Fix(es) for the media.NOTE: Before Hot Fixes/Service Packs can be installed, ensure you have installed the GA code (Golden Level).
+Further filter down Type, Operating System and Language using the pane located on the right hand side.
+Once you have filtered down to the desired media, click on the ‘blue download’ icon.
+
+This will then appear in your downloads folder as a zipped folder.
+
+
+For further information on the downloaded media please visit ‘Creating a Complete Install Folder from Part Downloads of Dassault Systèmes Products‘ page.
+For guide on installing CATIA, please click here.
+
+
+
+
+
+
+
+
+
+
+
+
+For further information or support, please contact [email protected] or submit a support ticket.

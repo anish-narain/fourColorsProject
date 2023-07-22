@@ -1,0 +1,24 @@
+If you find that CATIA V5-6R2019 GA Installation crashes out immediately when the setup.exe application is launched, this is due to the presence of a bug in the original installation launcher. Replace the existing setup.exe file with the file attached and re-run the installation.
+
+
+Download the replacement file attached here.
+Extract the ZIP file:
+
+Right click and select ‘Cut’ (or copy). Alternatively, you can drag and drop into the installation media directory.
+“Paste’ or drop the file in the CATIA R2019 installation media directory. This will replace the old ‘setup.exe’.
+This should then allow you to ‘Run’ the setup.exe file and continue with the installation.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+For further information or support, please contact [email protected] or submit a support ticket.

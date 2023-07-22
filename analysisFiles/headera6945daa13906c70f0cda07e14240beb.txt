@@ -1,3 +1,0 @@
-Dassault Systèmes Products,0.001881309737406442
-Complete Install Folder,0.0032173869679631944
-Folder from Part,0.02140921543860024

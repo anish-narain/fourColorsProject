@@ -1,0 +1,24 @@
+This guide will describe how to install LUM licenses onto your machine/server.
+
+
+1. On the machine where the target ID was obtained, start the Basic License Tool (Start > All Programs > License Use Runtime)
+2. Click on Products > Enroll > Multiple certificates…
+
+3. Select the license file and click Open
+
+4. Click OK
+
+Note: If you receive a message stating that a duplicate product already exists, then the old product will need to be removed first.
+
+
+
+
+
+
+
+
+
+
+
+
+For further information or support, please contact [email protected] or submit a support ticket.
