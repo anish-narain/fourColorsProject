@@ -1,5 +1,7 @@
 # Smart Tagging For FAQs
 
+[This project was created in a pre-LLM world]
+ 
 This project was a prototype with the aims to automate the process of finding relevant FAQs based on user queries. It scrapes the main FAQ page of a website, extracts individual FAQs, and analyzes the content to generate keywords. It then uses BERT embeddings and cosine similarity to compare user queries with the FAQ content and provide the top 3 most relevant FAQ questions as output.
 
 Google’s Cloud Natural Language API was considered but the project was for technical documents which do not always follow the standard conventions of speaking language. Instead, a statistical, keyword extraction method was chosen called YAKE (Yet Another Keyword Extractor).
